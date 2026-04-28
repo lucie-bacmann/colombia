@@ -1,61 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
 
-body {  
+body {
+  background: #f4f4f4;
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin: 0;
-  background-color: #f4f4f4;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
 }
 
-a {
-  text-decoration: none;
-}
-
-/* BANNER */
-.banner {
-  background-image: url("../images/background.jpeg");
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  color: white;
-}
-
-/* CONTAINER */
 .container {
-  width: 900px;
+  width: 700px;
   margin: 40px auto;
 }
 
-/* BUTTON */
-.btn-blue {
-  background-color: #2bbbad;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-/* CARDS */
-.cards {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
+.card-white {
   background: white;
-  padding: 20px;
-  border-radius: 6px;
-  width: 250px;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   text-align: center;
 }
 
-.card img {
-  width: 100%;
-  border-radius: 6px;
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
 }
