@@ -1,72 +1,38 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
 
-body {  
+body {
+  background-color: #f4f4f4;
   font-family: 'Lora', serif;
   font-size: 18px;
   margin: 0;
-  background-color: #f4f4f4;
 }
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* BANNER */
-.banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://lucie-bacmann.github.io/colombia/images/background.jpeg");
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  color: white;
-}
-
-.banner h1 {
-  font-size: 50px;
-  margin-bottom: 10px;
-}
-
-.banner h2 {
-  font-weight: lighter;
-  margin-bottom: 20px;
 }
 
 /* CONTAINER */
 .container {
-  width: 900px;
-  margin: 0 auto;
-  padding: 40px 0;
-}
-
-/* BUTTON */
-.btn-blue {
-  background-color: #2bbbad;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  display: inline-block;
+  width: 700px;
+  margin: 40px auto;
 }
 
 /* CARDS */
-.cards {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
+.card-white {
   background: white;
-  padding: 20px;
+  padding: 30px;
+  margin: 20px 0;
   border-radius: 6px;
-  width: 250px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   text-align: center;
 }
 
-.card img {
-  width: 100%;
-  border-radius: 6px;
+/* BUTTON */
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
 }
