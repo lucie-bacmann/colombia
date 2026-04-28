@@ -18,11 +18,21 @@ a {
 
 /* BANNER */
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/colombia/images/background.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://lucie-bacmann.github.io/colombia/images/background.jpeg");
   background-size: cover;
   background-position: center;
   padding: 150px 0;
   color: white;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.banner h2 {
+  font-weight: lighter;
+  margin-bottom: 20px;
 }
 
 /* CONTAINER */
